@@ -27,3 +27,61 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* MY WORK */
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  font-size: 24px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none; 
+  color: white; 
+}
+
+body {
+  flex-direction: column;
+}
+
+.center, .content, body, .header, .footer {
+  display: flex;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+  align-items: center;
+  flex: none;
+}
+
+.footer {
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.center {
+  flex-grow: 1;
+}
+
+.content {
+  padding: 48px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  margin: 8px;
+}
